@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q/WIWltekbivbncFpiYU/J3qyQ7vIZhX6PfGCpjgMy0=",
+  "Source": "PharmacyPrescriptionApi",
+  "BasePath": "_content/PharmacyPrescriptionApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
