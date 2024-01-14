@@ -25,3 +25,6 @@ The design of this system leverages the MVC (Model-View-Controller) architectura
 
 ## Issues Encountered
 - Deployment on Azure
+
+## ER-Diagram
+- You can see my ER Diagram from [here](https://drive.google.com/file/d/18pOsYCl6CVncfUuNRo_6NGEl9vw7Wah5/view?usp=sharing)
