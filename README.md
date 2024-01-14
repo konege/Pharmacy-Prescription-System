@@ -22,3 +22,6 @@ The design of this system leverages the MVC (Model-View-Controller) architectura
 - **Database**: Azure SQL Server
 - **Authentication**: JWT Authentication
 - **Hosting**: Azure App Services
+
+## Issues Encountered
+- Deployment on Azure
