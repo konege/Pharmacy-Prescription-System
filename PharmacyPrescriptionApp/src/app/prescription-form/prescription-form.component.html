@@ -1,0 +1,20 @@
+<!-- prescription-form.component.html -->
+<form [formGroup]="prescriptionForm" (ngSubmit)="onSubmit()">
+    <!-- Input fields for pharmacyId, tcIdNo, fullName -->
+    <!-- ... -->
+    <div formArrayName="medicines">
+      <div *ngFor="let medicine of medicines.controls; let i = index" [formGroupName]="i">
+        <!-- Medicine name input -->
+        <input formControlName="name">
+        <!-- Medicine price input -->
+        <input formControlName="price">
+        <!-- Add Button to add medicine to the list -->
+        <button (click)="addMedicine()">Add</button>
+        <!-- Delete Button to remove medicine from the list -->
+        <button (click)="removeMedicine(i)">Delete</button>
+      </div>
+    </div>
+    <!-- Submit button -->
+    <button type="submit">Submit Prescription</button>
+  </form>
+  

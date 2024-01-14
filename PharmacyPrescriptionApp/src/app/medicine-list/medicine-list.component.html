@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let medicine of medicines">
+      {{ medicine.name }} - {{ medicine.price }}
+      <button (click)="addToPrescription(medicine)">Add to Prescription</button>
+    </li>
+  </ul>
